@@ -6,7 +6,54 @@ html {
   height: 100%;
 }
 
+h1 {
+  color: #2a6171;
+  font-size: 3rem;
+}
+
 body {
   margin: 0;
   min-height: 100%;
+  padding: 2rem;
+  text-align: center;
+  background-color: #d7f7f5;
+  font-family: 'Lora', serif;
+}
+
+section {
+  padding: 3rem;
+}
+
+/***** Classes *****/
+
+.location-input {
+  height: 1.5rem;
+  width: 10rem;
+  background-color: whitesmoke;
+  color: #2a6171;
+  font-family: 'Lora', serif;
+}
+
+.get-weather-btn {
+  height: 1.5rem;
+  background-color: #f3d516;
+  color: #2a6171;
+}
+
+.ft-area {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #75cac3;
+  color: white;
+  text-align: center;
+  height: 2rem;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.results {
+  font-size: 3rem;
+  color: #2a6171;
 }
